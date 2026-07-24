@@ -1,4 +1,4 @@
 const music = document.getElementById("bgMusic");
-        document.addEventListener("mouseenter", () => {
+        document.addEventListener("pointerdown", () => {
             music.play();
         }, { once: true });
